@@ -22,6 +22,6 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  let newKittens=kittens.splice(0,0,name)
+  let newKittens=kittens.unshift(name)
   return newKittens
 }
