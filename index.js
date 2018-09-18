@@ -22,6 +22,6 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  let newArray=kittens.unshift(name)
-  return newArray
+newArray=kittens.unshift(name)
+return newArray
 }
