@@ -18,4 +18,5 @@ function destructivelyRemoveFirstKitten(name){
 
 function appendKitten(name){
   let newKittens=kittens.shift(name)
+  return newKittens
 }
