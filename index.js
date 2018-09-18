@@ -26,3 +26,8 @@ let newKittens=('Arnold,').concat(kittens)
 return newKittens
 }
 
+function removeLastKitten(){
+  let newKittens=kittens.pop(name)
+  return newKittens
+}
+
