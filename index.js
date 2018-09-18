@@ -27,7 +27,7 @@ return newKittens
 }
 
 function removeLastKitten(){
-  let newKittens=kittens.pop(name)
+  let newKittens=kittens.slice()
   return newKittens
 }
 
