@@ -27,7 +27,7 @@ return newKittens
 }
 
 function removeLastKitten(){
-  let newKittens=kittens.slice()
+  let newKittens=kittens.slice(kittens.length)
   return newKittens
 }
 
