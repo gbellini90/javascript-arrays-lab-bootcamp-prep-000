@@ -22,5 +22,6 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-let newKittens=(name)
+let newKittens=(name).concat(kittens)
+return newKittens
 }
